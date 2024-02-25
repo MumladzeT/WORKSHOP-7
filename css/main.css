@@ -1,0 +1,250 @@
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin: 120px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 80px;
+    color: #37393F;
+}
+
+.text {
+    background-color: #6B77E5;
+    color: #ffff;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Black.ttf);
+}
+
+.process {
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin: 200px;
+}
+
+.process span {
+    font-family: inter;
+}
+
+.boxes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+    position: relative;
+    bottom: 60px;
+    gap: 60px;
+}
+
+.box1 {
+    background-color: #F4F4F4;
+}
+
+.box2 {
+    background-color: #F4F4F4;
+}
+
+.box3 {
+    background-color: #F4F4F4;
+}
+
+.boxes h4 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.boxes p {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #7D7D7D;
+    width: 300px;
+    height: 78px;
+}
+
+.boxes span {
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6B77E5;
+    margin: 10px;
+}
+
+.boxes img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.calendar {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.hand {
+    width: 100%;
+    text-align: center;
+    height: 557px;
+    opacity: 0.5;
+}
+
+.filter {
+    width: 100%;
+    position: relative;
+    bottom: 300px;
+    text-align: center;
+    height: 557px;
+}
+
+.filter span {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #37393F;
+}
+
+.filter h3 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #37393F;
+}
+
+.filter p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #37393F;
+}
+
+.experts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 48px;
+    color: #37393F;
+    position: relative;
+    bottom: 200px;
+}
+
+.experts span {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #37393F;
+}
+
+.team {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: poppins;
+    position: relative;
+    bottom: 120px;
+    gap: 60px;
+
+}
+
+.name span {
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    color: #37393F
+}
+
+.name p {
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #7D7D7D;
+}
+
+.director {
+    background-color: #FFFFFF;
+    position: relative;
+    right: 200px;
+
+}
+
+.designer {
+    background-color: #FFFFFF;
+
+}
+
+.marketer {
+    background-color: #FFFFFF;
+    position: relative;
+    left: 200px;
+}
